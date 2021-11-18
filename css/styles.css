@@ -359,8 +359,7 @@ img{
 @media screen and (min-width: 576px){
   .home__container,
   .about__container,
-  .app__container,
-  .footer__content{
+  .app__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
   }
