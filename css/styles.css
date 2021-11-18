@@ -360,7 +360,7 @@ img{
   .home__container,
   .about__container,
   .app__container,
-  .footer__container{
+  .footer__content{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
   }
