@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -24,7 +30,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>DineOut</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +45,56 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+          <div class="footer__container bd-grid">
+              <div class="footer__content">
+                  <a href="#" class="footer__logo">Dine Out</a>
+                  <span class="footer__description">Restaurant</span>
+                  <div>
+                      <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                      <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                      <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                  </div>
+              </div>
+
+              <div class="footer__content">
+                  <h3 class="footer__title">Services</h3>
+                  <ul>
+                      <li><a href="#" class="footer__link">Delivery</a></li>
+                      <li><a href="#" class="footer__link">Pricing</a></li>
+                      <li><a href="#" class="footer__link">Fast food</a></li>
+                      <li><a href="#" class="footer__link">Reserve your spot</a></li>
+                  </ul>
+              </div>
+
+              <div class="footer__content">
+                  <h3 class="footer__title">Information</h3>
+                  <ul>
+                      <li><a href="#" class="footer__link">Event</a></li>
+                      <li><a href="#" class="footer__link">Contact us</a></li>
+                      <li><a href="#" class="footer__link">Privacy policy</a></li>
+                      <li><a href="#" class="footer__link">Terms of services</a></li>
+                  </ul>
+              </div>
+
+              <div class="footer__content">
+                  <h3 class="footer__title">Adress</h3>
+                  <ul>
+                      <li>Lima - Peru</li>
+                      <li>Jr Union #999</li>
+                      <li>999 - 888 - 777</li>
+                      <li>tastyfood@email.com</li>
+                  </ul>
+              </div>
+          </div>
+
+          <p class="footer__copy">&#169; 2020 Bedimcode. All right reserved</p>
+      </footer>
+            <!--========== SCROLL REVEAL ==========-->
+      <script src="https://unpkg.com/scrollreveal" defer></script>
+          
+                    <!--========== MAIN JS ==========-->
+      <script src="js/main.js" defer></script>
   </body>
 </html>
