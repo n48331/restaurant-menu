@@ -89,7 +89,8 @@ body{
   line-height: 1.6;
 }
 hr{
-  border: 1px solid var(--first-color);
+  background: linear-gradient(to right, --first-color, --first-color-alt);
+  height: 5px;
 }
 
 h1,h2,h3,p,ul{
