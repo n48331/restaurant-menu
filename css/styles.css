@@ -89,8 +89,8 @@ body{
   line-height: 1.6;
 }
 hr{
-  background: linear-gradient(to right, --first-color, --first-color-alt);
-  height: 5px;
+  background: linear-gradient(to right, var(--first-color), var(--first-color-alt));
+  height: 2px;
 }
 
 h1,h2,h3,p,ul{
